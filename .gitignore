@@ -1,0 +1,41 @@
+# Data files (may contain sensitive information or be very large)
+data/*.csv
+data/*.xlsx
+data/*.json
+data/raw/
+data/processed/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+
+# BI tool exports
+dashboards/*.twb
+dashboards/*.twbx
+dashboards/*.pbix
